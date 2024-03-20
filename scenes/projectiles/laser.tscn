@@ -9,7 +9,7 @@ height = 94.0
 
 [node name="Laser" type="Area2D"]
 script = ExtResource("1_c56uh")
-speed = 2000
+speed = 1800
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 34)
