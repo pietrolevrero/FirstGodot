@@ -13,9 +13,10 @@ collision_mask = 7
 script = ExtResource("1_c56uh")
 speed = 1800
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("CapsuleShape2D_laih2")
+
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 34)
 texture = ExtResource("1_isio1")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CapsuleShape2D_laih2")
