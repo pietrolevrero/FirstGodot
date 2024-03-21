@@ -7,3 +7,7 @@ res://scenes/player/player.gd
 res://scenes/projectiles/grenade.gd
 res://scenes/projectiles/laser.gd
 res://scenes/houses/house.tscn
+res://scenes/objects/gate.tscn
+res://scenes/objects/bed.tscn
+res://scenes/enemies/drone.tscn
+res://scenes/objects/billboard.tscn
