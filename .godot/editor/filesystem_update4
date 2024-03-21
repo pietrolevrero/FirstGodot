@@ -6,3 +6,4 @@ res://scenes/levels/level.gd
 res://scenes/player/player.gd
 res://scenes/projectiles/grenade.gd
 res://scenes/projectiles/laser.gd
+res://scenes/houses/house.tscn
