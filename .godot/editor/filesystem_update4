@@ -12,3 +12,7 @@ res://scenes/objects/bed.tscn
 res://scenes/enemies/drone.tscn
 res://scenes/objects/billboard.tscn
 res://scenes/objects/steam_vent.tscn
+res://scenes/objects/simple_light.tscn
+res://scenes/objects/light_fan_animation.tscn
+res://scenes/houses/house.gd
+res://scenes/objects/gate.gd
