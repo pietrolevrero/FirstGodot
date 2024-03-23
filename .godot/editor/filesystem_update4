@@ -15,3 +15,5 @@ res://scenes/objects/box.tscn
 res://scenes/objects/box.gd
 res://scenes/objects/crate.tscn
 res://scenes/houses/house.tscn
+res://scenes/objects/light_fan_animation.tscn
+res://scenes/levels/inside.gd

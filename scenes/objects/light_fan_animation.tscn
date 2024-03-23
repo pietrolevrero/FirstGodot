@@ -204,7 +204,9 @@ animations = [{
 
 [node name="LightFanAnimation" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_2ragl")
-frame_progress = 0.391294
+autoplay = "default"
+frame = 45
+frame_progress = 0.422072
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 texture = ExtResource("49_k8frv")
