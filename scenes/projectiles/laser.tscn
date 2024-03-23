@@ -20,3 +20,11 @@ shape = SubResource("CapsuleShape2D_laih2")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 34)
 texture = ExtResource("1_isio1")
+
+[node name="LifeTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="LifeTimer" to="." method="_on_life_timer_timeout"]
