@@ -1,5 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://bp2p4gbga0es0"]
+[gd_scene load_steps=3 format=3 uid="uid://bp2p4gbga0es0"]
 
 [ext_resource type="PackedScene" uid="uid://ctfbvlu3ebt1r" path="res://scenes/levels/level.tscn" id="1_u2uw1"]
+[ext_resource type="TileSet" uid="uid://camjs55x51mxo" path="res://scenes/levels/house.tres" id="2_5ex01"]
 
 [node name="Inside" instance=ExtResource("1_u2uw1")]
+
+[node name="TileMap" type="TileMap" parent="Ground" index="0"]
+tile_set = ExtResource("2_5ex01")
+format = 2
+layer_0/name = "Floor"
+layer_1/name = "Outer walls"
+layer_1/tile_data = PackedInt32Array()
+layer_2/name = "Inner walls"
+layer_2/tile_data = PackedInt32Array()
