@@ -94,10 +94,15 @@ position = Vector2(1823, 513)
 position = Vector2(-1130, 4105)
 rotation = -2.34049
 
+[node name="LightFanAnimation" parent="Ground" index="9" instance=ExtResource("13_xujxh")]
+position = Vector2(1042, 476)
+metadata/_edit_lock_ = true
+
 [node name="Gate" parent="." index="1" instance=ExtResource("12_pi06p")]
 position = Vector2(514, -716)
 
-[node name="LightFanAnimation" parent="." index="5" instance=ExtResource("13_xujxh")]
-position = Vector2(1042, 476)
+[node name="Player" parent="." index="3"]
+position = Vector2(599, 310)
+metadata/_edit_group_ = true
 
 [connection signal="player_entered_gate" from="Gate" to="." method="_on_gate_player_entered_gate"]
